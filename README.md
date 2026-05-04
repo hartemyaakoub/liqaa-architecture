@@ -23,18 +23,18 @@ If you've ever read [Linear's spec docs](https://linear.app/method) or [Vercel's
 
 ADRs follow the [Michael Nygard format](https://github.com/joelparkerhenderson/architecture-decision-record). Status of each is one of: `proposed`, `accepted`, `superseded`, `deprecated`.
 
-| #    | Title                                                                                                | Status     |
+| # | Title | Status |
 | ---- | ---------------------------------------------------------------------------------------------------- | ---------- |
-| [001](./adrs/001-livekit-sfu-vs-build-our-own.md) | Use LiveKit SFU instead of building our own                       | accepted   |
-| [002](./adrs/002-stripe-grade-pk-sk-separation.md) | pk_live / sk_live separation, Stripe-style                       | accepted   |
-| [003](./adrs/003-persistent-rooms-by-conversation-id.md) | Persistent rooms via external_conversation_id                | accepted   |
-| [004](./adrs/004-hmac-signed-webhooks-with-replay-protection.md) | HMAC-signed webhooks with 5-min replay window         | accepted   |
-| [005](./adrs/005-jwt-sdk-tokens-instead-of-bearer-pk.md) | 1-hour JWT for browser sessions, no raw pk in DOM            | accepted   |
-| [006](./adrs/006-mcp-server-for-ai-agents.md) | Ship an MCP server alongside the SDKs                                   | accepted   |
-| [007](./adrs/007-publish-changelog-as-separate-repo.md) | Publish the changelog as its own GitHub repo                  | accepted   |
-| [008](./adrs/008-public-benchmarks-as-a-feature.md) | Treat open benchmarks as a competitive feature                    | accepted   |
-| [009](./adrs/009-rtl-and-arabic-as-tier-1.md) | Arabic + RTL as a tier-1 (not "i18n later") concern                     | accepted   |
-| [010](./adrs/010-self-hostable-on-day-1.md) | Architect every service to be self-hostable from day one                  | accepted   |
+| [001](./adrs/001-livekit-sfu-vs-build-our-own.md) | Use LiveKit SFU instead of building our own | accepted |
+| [002](./adrs/002-stripe-grade-pk-sk-separation.md) | pk_live / sk_live separation, Stripe-style | accepted |
+| [003](./adrs/003-persistent-rooms-by-conversation-id.md) | Persistent rooms via external_conversation_id | accepted |
+| [004](./adrs/004-hmac-signed-webhooks-with-replay-protection.md) | HMAC-signed webhooks with 5-min replay window | accepted |
+| [005](./adrs/005-jwt-sdk-tokens-instead-of-bearer-pk.md) | 1-hour JWT for browser sessions, no raw pk in DOM | accepted |
+| [006](./adrs/006-mcp-server-for-ai-agents.md) | Ship an MCP server alongside the SDKs | accepted |
+| [007](./adrs/007-publish-changelog-as-separate-repo.md) | Publish the changelog as its own GitHub repo | accepted |
+| [008](./adrs/008-public-benchmarks-as-a-feature.md) | Treat open benchmarks as a competitive feature | accepted |
+| [009](./adrs/009-rtl-and-arabic-as-tier-1.md) | Arabic + RTL as a tier-1 (not "i18n later") concern | accepted |
+| [010](./adrs/010-self-hostable-on-day-1.md) | Architect every service to be self-hostable from day one | accepted |
 
 ### System diagrams
 
